@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-eureka-service
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka  #配置你的註冊中心地址
