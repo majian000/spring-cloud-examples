@@ -20,7 +20,7 @@ public class RibbonQueryEurekaServiceController {
     @GetMapping("/server_info/port")
     public String queryPort() {
         String result = restTemplate.getForObject("http://spring-cloud-eureka-service/server_info/port",String.class);
-        return result;
+        return "Ribbon方式调用 服务端返回:"+result;
     }
 
 }
