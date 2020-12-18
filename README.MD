@@ -12,6 +12,9 @@ Eureka註冊中心(參考對應的README.MD)
 3.spring-cloud-eureka-consumer
 使用Eureka注册中心的消费者
 
+4.spring-cloud-eureka-consumer-hystrix
+使用Eureka注册中心的消费者支持hystrix熔断保护
+
 ##日志
 1.2020-12-16
 增加注册中心eureka
@@ -19,3 +22,6 @@ Eureka註冊中心(參考對應的README.MD)
 2.2020-12-17
 增加服务类使用eureka注册中心,
 增加消费者端使用eureka注册中心
+
+3.2020-12-18
+eureka消费者端支持hystrix熔断

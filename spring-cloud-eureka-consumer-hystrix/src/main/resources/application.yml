@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-cloud-eureka-service-hystrix
+server:
+  port: 9004
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka  #配置你的註冊中心地址
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 1000 #连接时间超时1秒就熔断
