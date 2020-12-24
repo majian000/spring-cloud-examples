@@ -25,3 +25,6 @@ Eureka註冊中心(參考對應的README.MD)
 
 3.2020-12-18
 eureka消费者端支持hystrix熔断
+
+4.2020-12-24
+增加Gateway网关路由
