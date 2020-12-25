@@ -27,6 +27,7 @@
         <module>spring-cloud-eureka-consumer</module>
         <module>spring-cloud-eureka-consumer-hystrix</module>
         <module>spring-cloud-eureka-service-gateway</module>
+        <module>spring-config</module>
     </modules>
 
 </project>
