@@ -1,0 +1,13 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: spring-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/majian000/spring-cloud-examples
+          search-paths: /spring-config/config  #配置文件所在目录
+          username:
+          password:
