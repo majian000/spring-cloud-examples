@@ -29,6 +29,7 @@
         <module>spring-cloud-eureka-service-gateway</module>
         <module>spring-config-server</module>
         <module>spring-config</module>
+        <module>spring-config-bus-server</module>
     </modules>
 
 </project>
